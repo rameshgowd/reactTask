@@ -6,7 +6,7 @@ import './index.css'
 function TaskList() {
   const [tasks, setTasks] = useState([]);
 
-  // Simulate fetching tasks from backend (replace with actual API call)
+  
   useEffect(() => {
     const fetchTasks = async () => {
       const response = await fetch('http://your-api.com/tasks');

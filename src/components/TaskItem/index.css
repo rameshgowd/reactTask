@@ -4,12 +4,12 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #eee;
-    cursor: pointer; /* Make task items hoverable for potential interactivity */
+    cursor: pointer; 
   }
   
   .task-item label {
-    flex: 1; /* Allow task title to take up most space */
-    margin-right: 10px; /* Add some margin for readability */
+    flex: 1; 
+    margin-right: 10px; 
   }
   
   .task-item.completed {
